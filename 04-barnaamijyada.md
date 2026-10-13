@@ -1,64 +1,68 @@
-# Marxalad 3 · Barnaamijyada — Python & Bash
+# Marxalad 3 · Barnaamij-samaynta — Python iyo Bash
 
-> Cybersecurity-ga koodhka waa luuqadda labaad. Adigoo qoraya scripts-yar, waxaad otomaatig ka dhigi kartaa hawsha aad gacanta ku qaban lahayd saacado. Python ayaa ah luuqadda ugu isticmaalka badan amniga.
+> Barnaamij-samayntu waxay kuu sahlaysaa inaad hawlo soo noqnoqda otomaatig ka dhigto, xogta falanqayso, oo aad fahanto sida software-ku u shaqeeyo. Python ayaa ah meel wanaagsan oo laga bilaabo.
 
 ---
 
 ## 🎯 Hadaf
-Baro aasaaska Python (iyo Bash) si aad u qorto scripts hubinta iyo otomaatiga.
 
-## 📚 Waxa La Barta
+Baro aasaaska Python iyo Bash si aad u qori karto qoraallo yar-yar oo hawlo sharci ah kuu fududeeya.
 
-| Mawduuc | Waxa aad baranaysaa |
+## 📚 Mawduucyada la baranayo
+
+| Mawduuc | Waxa aad baranayso |
 |---|---|
-| Python aasaas | Variables, types (`int`, `str`, `list`, `dict`), input/output |
+| Python aasaasi ah | Variables, noocyada xogta (`int`, `str`, `list`, `dict`), gelin iyo soo-saar |
 | Xakamaynta socodka | `if/else`, `for`, `while` |
-| Hawlaha (functions) | `def`, arguments, return |
-| Faylasha | Akhriska iyo qorista faylasha (`open`) |
-| Modules | `import`, standard library |
-| Hawlaha security-ga | `requests` (HTTP codsiyada), `socket` (shabakadda), `os`/`subprocess` |
-| Bash scripting | Sheeko-yar, loops, cron basics |
-| JavaScript (hoos) | HTML/JS basics — arag Marxalad 4 |
+| Functions | `def`, arguments iyo `return` |
+| Faylasha | Akhrinta iyo qorista faylasha adigoo adeegsanaya `open` |
+| Modules | `import` iyo maktabadaha Python |
+| Codsiyada webka | `requests` si loo diro HTTP requests shaybaar la oggolaaday |
+| Shabakadaha | `socket` aasaasi ah iyo fahamka xiriirrada |
+| Bash | Amarada la isku xiro, variables iyo loops fudud |
+| JavaScript | Aasaaska HTML/JS; waxay kaa caawinaysaa marxaladda webka |
 
-**Tusaale — port scanner yar (Python):**
+### Tusaale waxbarasho: hubinta dekedo kooban oo shaybaar kuu gaar ah
+
+Isticmaal tusaalahan oo keliya domain ama mashiin aad leedahay ama aad fasax u haysato inaad tijaabiso.
+
 ```python
 import socket
 
-host = "example.com"
+host = "127.0.0.1"  # kombiyuutarkaaga; ku beddel oo keliya bartilmaameed fasax leh
 for port in [80, 443, 22, 8080]:
-    s = socket.socket()
-    s.settimeout(1)
-    result = s.connect_ex((host, port))
-    if result == 0:
-        print(f"Port {port}: FURAN")
-    s.close()
+    with socket.socket() as sock:
+        sock.settimeout(1)
+        result = sock.connect_ex((host, port))
+        state = "furan" if result == 0 else "xiran ama aan la gaari karin"
+        print(f"Dekedda {port}: {state}")
 ```
-Kan waa hawsha ugu horeysa ee aad ku baranayso!
 
-## 🔗 Agab (Bilaash)
+## 🔗 Agab bilaash ah
 
-| Agab | Waxa ay tahay | Link |
+| Agab | Waxa uu bixinayo | Xiriiriye |
 |---|---|---|
-| **freeCodeCamp — Python** | Kursus buuxa (4 saac) | [youtube.com/watch?v=rfscVS0vtbw](https://www.youtube.com/watch?v=rfscVS0vtbw) |
-| **Automate the Boring Stuff** | Buug bilaash online | [automatetheboringstuff.com](https://automatetheboringstuff.com) |
-| **Python.org — Tutorial** | Buug rasmiga ah | [docs.python.org/3/tutorial](https://docs.python.org/3/tutorial/) |
-| **Codecademy — Python** | Interactive (bilaash aasaas) | [codecademy.com/learn/learn-python-3](https://www.codecademy.com/learn/learn-python-3) |
-| **CS50 (Harvard)** | Kursus jaamacad bilaash (optional) | [cs50.harvard.edu/x](https://cs50.harvard.edu/x/) |
+| **freeCodeCamp — Python** | Koorso muuqaal ah oo hordhac ilaa aasaas ah | [YouTube](https://www.youtube.com/watch?v=rfscVS0vtbw) |
+| **Automate the Boring Stuff** | Buug online ah oo Python lagu barto | [automatetheboringstuff.com](https://automatetheboringstuff.com) |
+| **Python.org — Tutorial** | Casharka rasmiga ah ee Python | [docs.python.org/3/tutorial](https://docs.python.org/3/tutorial/) |
+| **Codecademy — Python** | Layliyo isdhexgal leh; qayb bilaash ah | [codecademy.com/learn/learn-python-3](https://www.codecademy.com/learn/learn-python-3) |
+| **CS50 (Harvard)** | Hordhac sayniska kombiyuutarka; agab bilaash ah | [cs50.harvard.edu/x](https://cs50.harvard.edu/x/) |
 
-## ✅ Liiska Hubinta
+## ✅ Liiska hubinta
 
-- [ ] Waan qoray script Python ah oo variables, loops, iyo functions isticmaasho
-- [ ] Waan akhriyay oo qoray fayl Python ah
-- [ ] Waan isticmaalay `requests` oo aan soo dhigay bog web
-- [ ] Waan qoray **port scanner** (sida tusaalaha kore)
-- [ ] Waan garanayaa Bash script aasaasiga ah
-- [ ] Waan fahmay sida `pip` loo isticmaalo (`pip install requests`)
+- [ ] Waxaan qoray barnaamij Python ah oo adeegsada variables, loops iyo functions.
+- [ ] Waxaan akhriyey oo qoray fayl Python ah.
+- [ ] Waxaan `requests` ku diray codsi bog tijaabo ah.
+- [ ] Waxaan qoray qoraal yar oo hubiya dekedaha mashiin maxalli ah ama shaybaar fasax leh.
+- [ ] Waxaan fahmay aasaaska Bash.
+- [ ] Waxaan rakibay maktabad anigoo adeegsanaya `pip`.
 
-## ⏱️ Waqti La Qiyaaso
-4-6 toddobaad (hal saac maalintii) — ha degdeg: koodhka barashadu waqti ayay qaadataa
+## ⏱️ Waqtiga qiyaasta ah
 
-## 🏁 Imtixaanka (Milestone)
+4–6 toddobaad. Ku celceli; uma baahnid inaad luuqadda oo dhan barato ka hor intaadan marxaladda xigta bilaabin.
 
-**Qor tool yar oo dhab ah:** port scanner, ama password generator, ama HTTP header checker. Ku dhig GitHub-kaaga (waxaa hore u baahan tahay akoon GitHub) — kan waa bilowga portfolio-gaaga!
+## 🏁 Hawsha lagu hubinayo horumarka
 
-→ Xig: [05-amniga-web-ka.md](05-amniga-web-ka.md)
+Samee mashruuc yar oo aad sharxi karto, sida hubiye headers HTTP ah oo ka shaqeeya shaybaar maxalli ah. Ku qor GitHub oo ku dar README sharxaya sida loo isticmaalo. Tani waxay noqon kartaa bilowga galkaaga shaqo (portfolio).
+
+→ Marka xigta: [Marxaladda 4: Amniga barnaamijyada webka](05-amniga-web-ka.md)

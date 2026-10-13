@@ -1,50 +1,52 @@
-# Marxalad 1 · Shabakadda (Networking)
+# Marxalad 1 · Shabakadaha (Networking)
 
-> Shabakadda waa luuqadda cybersecurity-ka. Qof aan shabakad fahmin ma noqon karo security professional. Halkan waxaad baranaysaa TCP/IP, DNS, HTTP, iyo qalabyada shabakadda.
+> Fahamka shabakadaha ayaa saldhig u ah inta badan shaqooyinka amniga internetka. Marxaladdan waxaad ku baranaysaa sida qalabku xogta isu dhaafsado.
 
 ---
 
 ## 🎯 Hadaf
-Faham buuxa oo shabakadda sida ay u shaqeeyso — kaas oo ah aasaaska dhammaan dhaqan celinta amniga.
 
-## 📚 Waxa La Barta
+Inaad fahanto fikradaha aasaasiga ah ee shabakadaha iyo jidka uu codsiga webku u maro marka uu browser-kaaga ka tago ilaa server-ka uu gaaro.
 
-| Mawduuc | Waxa aad baranaysaa |
+## 📚 Mawduucyada la baranayo
+
+| Mawduuc | Waxa aad baranayso |
 |---|---|
-| IP addresses | IPv4, saddex meelood (public vs private), subnet basics |
-| TCP/IP model | Layers-ka 4: Application · Transport · Internet · Link |
-| DNS | Magaca → IP (phone book-ka internet-ka) |
-| Ports | Port-yada caanka ah: 80 (HTTP), 443 (HTTPS), 22 (SSH), 53 (DNS) |
-| HTTP vs HTTPS | Codsiyada, jawaabaha, iyo muhiimadda TLS |
-| Wireshark | Qalabka arka paket-ka (traffic-ka) |
-| Qalabyada terminal-ka | `ping`, `ipconfig`/`ifconfig`, `tracert`/`traceroute`, `nslookup` |
+| Cinwaannada IP | IPv4, cinwaannada guud (public) iyo kuwa gaarka ah (private), hordhaca subnet-ka |
+| TCP/IP | Lakabyada Application, Transport, Internet iyo Link |
+| DNS | Sida magaca domain-ka loogu helo cinwaanka IP-ga |
+| Ports | Dekedaha caanka ah: 80 (HTTP), 443 (HTTPS), 22 (SSH), 53 (DNS) |
+| HTTP iyo HTTPS | Codsiyada, jawaabaha, headers-ka iyo doorka TLS |
+| Wireshark | Qalab lagu eego taraafikada shabakadda (network traffic) |
+| Amarada shabakadda | `ping`, `ipconfig`/`ifconfig`, `traceroute`, `nslookup` |
 
-**Fiiro muhiim ah:** Subnetting (xisaabka IP-yada) ayaa dadka badan ka niyad jabiya. U eeg sida "xisaab fudud oo xaadinaya" — PowerCert ayaa si fiican u sharxaya.
+**Subnetting** waa mawduuc xisaab ku jira; wakhti sii oo tusaalooyin ku celceli. Muuqaallada PowerCert waxay fikradaha qaar u sharxaan si muuqaal ah.
 
-## 🔗 Agab (Bilaash)
+## 🔗 Agab bilaash ah
 
-| Agab | Waxa ay tahay | Link |
+| Agab | Waxa uu bixinayo | Xiriiriye |
 |---|---|---|
-| **Professor Messer — Network+** | Kursus buuxa YouTube (free) | [professormesser.com/network-plus/n10-009-video/n10-009-video-n10-009-course](https://www.professormesser.com/network-plus/n10-009-video/n10-009-video-n10-009-course/) |
-| **PowerCert — Networking animations** | Animation-ka ugu fiican | [youtube.com/playlist?list=PLDzWxXTDZ5DMHzDP0Htc9S7HQBBmQ1Y4m](https://www.youtube.com/@PowerCertAnimatedVideos) |
-| **TryHackMe — Network Fundamentals** | Module interactive ah | [tryhackme.com/module/network-fundamentals](https://tryhackme.com/module/network-fundamentals) |
-| **Practical Networking** | Channel YouTube ah oo subnet ku takhasus | [youtube.com/@PracticalNetworking](https://www.youtube.com/@PracticalNetworking) |
-| **Wireshark** | Qalabka (download bilaash) | [wireshark.org](https://www.wireshark.org) |
+| **Professor Messer — Network+** | Koorso muuqaal ah oo aasaaska shabakadaha ah | [professormesser.com](https://www.professormesser.com/network-plus/n10-009-video/) |
+| **PowerCert Animated Videos** | Muuqaallo ku saabsan networking | [youtube.com/@PowerCertAnimatedVideos](https://www.youtube.com/@PowerCertAnimatedVideos) |
+| **TryHackMe — Network Fundamentals** | Hawlo isdhexgal leh oo ku saabsan shabakadaha | [tryhackme.com/module/network-fundamentals](https://tryhackme.com/module/network-fundamentals) |
+| **Practical Networking** | Casharro muuqaal ah, gaar ahaan subnetting | [youtube.com/@PracticalNetworking](https://www.youtube.com/@PracticalNetworking) |
+| **Wireshark** | Qalab bilaash ah oo lagu falanqeeyo taraafikada | [wireshark.org](https://www.wireshark.org) |
 
-## ✅ Liiska Hubinta
+## ✅ Liiska hubinta
 
-- [ ] Waan garanayaa IP address iyo noocyada (public/private)
-- [ ] Waan sharxi karaa waxa TCP iyo UDP u kala duwan yihiin
-- [ ] Waan fahmay DNS oo waan isticmaalay `nslookup` iyo `dig`
-- [ ] Waan garanayaa ports-yada caanka ah (80, 443, 22, 53, 3389)
-- [ ] Waan isticmaalay Wireshark oo aan arkay HTTP traffic
-- [ ] Waan sharxi karaa HTTP request/response (method, status code, headers)
+- [ ] Waxaan garanayaa cinwaanka IP-ga iyo farqiga u dhexeeya public iyo private.
+- [ ] Waxaan sharxi karaa farqiga u dhexeeya TCP iyo UDP.
+- [ ] Waxaan fahmay doorka DNS, waxaanan tijaabiyey `nslookup` ama `dig`.
+- [ ] Waxaan aqoonsan karaa ports-ka caanka ah, sida 22, 53, 80 iyo 443.
+- [ ] Waxaan Wireshark ku eegay taraafikada shabakadda ee shaybaar aan leeyahay ama la oggolaaday.
+- [ ] Waxaan sharxi karaa qaybaha codsiga HTTP: method, status code iyo headers.
 
-## ⏱️ Waqti La Qiyaaso
-3-4 toddobaad (hal saac maalintii)
+## ⏱️ Waqtiga qiyaasta ah
 
-## 🏁 Imtixaanka (Milestone)
+3–4 toddobaad, haddii aad wax barato qiyaastii hal saac maalintii.
 
-**Ka digtoonaw shabakadda:** fur terminal-ka, isticmaal `ping`, `traceroute`, iyo `nslookup` bogga aad jeceshahay. Ka dib sharax codsiga HTTP buuxa: URL → DNS → TCP → TLS → codsi → jawaab. **Haddii aad karto — marxaladda Linux ayaan ku sugnaa.**
+## 🏁 Hawsha lagu hubinayo horumarka
 
-→ Xig: [03-linux.md](03-linux.md)
+Kombiyuutarkaaga ku tijaabi `ping`, `traceroute` iyo `nslookup` adeeg aad xaq u leedahay inaad baarto. Kadib sawir ama qoraal ku muuji sida codsiga webku u maro DNS, TCP, TLS iyo HTTP. Ha baadhin nidaam aadan fasax u haysan.
+
+Markaad fahanto aasaaskan, u gudub [Marxaladda 2: Linux](03-linux.md).

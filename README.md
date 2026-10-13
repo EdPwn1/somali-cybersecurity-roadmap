@@ -1,136 +1,106 @@
-# 🇸🇴 Waddada Cybersecurity-ka — Buugga Buuxa ee Dhalinyarada Soomaaliyeed
+# 🇸🇴 Hagaha Amniga Internetka ee Dhalinyarada Soomaaliyeed
 
-> **Waddada ugu dhammaystiran ee cybersecurity-ka: laga bilaabo eber illaa shaqo.** Bilaash, la fahmi karo, oo lagu qoray af-Soomaali dhalinyarada Soomaaliyeed. Tartib, agab (links), iyo talaabo kasta.
+> Hagahan wuxuu kuu tilmaamayaa waddo aad ku baran karto amniga internetka, laga bilaabo aasaaska kombiyuutarka ilaa xirfad shaqo. Waxa ku jira marxalado waxbarasho, hawlo aad ku tababaran karto, iyo agab internetka yaalla—badankoodna bilaash ah.
 
-**Qoraa:** Edxx1 · **Sharciga:** MIT · **Luqad:** Af-Soomaali 🇸🇴
+**Qoraa:** EdPwn1 · **Laysanka:** MIT · **Luuqadda:** Af-Soomaali 🇸🇴
 
 ---
 
-## 🎯 Maxay Cybersecurity-ka Tahay? Maxaad u Baahan tahay?
+## Waa maxay amniga internetku? Muxuu muhiim u yahay?
 
-**Cybersecurity** (amniga kombuyuutarrada) waa ilaalin nidaamyada, shabakadaha, iyo xogta ka weerarada digaalka ah. Waa xirfadda dunida ugu baahan yahay maanta — shirkad kasta, dowlad kasta, iyo akkaunt kasta waxay u baahan yihiin qof ilaaliya.
+Amniga internetku waa ilaalinta kombiyuutarrada, shabakadaha, adeegyada iyo xogta si looga hortago in la xado, la beddelo ama la carqaladeeyo. Shaqadan waxaa qabta dad leh xirfado kala duwan: qaar waxay tijaabiyaan difaacyada iyaga oo fasax haysta, qaarna waxay ilaaliyaan nidaamyada oo baaraan digniinaha amni.
 
-**Maxay tahay fursad weyn dhalinyarada Soomaaliyeed?**
+### Maxay fursad ugu tahay dhalinyarada Soomaaliyeed?
 
-| Sababta | Faahfaah |
+| Fursad | Faahfaahin |
 |---|---|
-| 💰 **Lacag fiican** | Jobs-ka cybersecurity-ka waxay bixiyaan mushahar sare dunida oo dhan |
-| 🌍 **Shaqo masaafad dheer (remote)** | Waxaad ka shaqeyn kartaa Muqdisho, Hargeysa, ama Boosaaso — macaamiisha waa adduunka oo dhan |
-| 🎓 **Ma ahan inaad jaamacad leedahay** | Xirfadda iyo portfolio-ka ayaa muhiim — certificates iyo waxa aad sameeyay |
-| 🆓 **Agab bilaash ah** | PortSwigger Academy, TryHackMe, iyo lab-yada oo kale — dhammaan bilaash |
-| 📈 **Baahi koraya** | Dunida waxay u baahan tahay in ka badan 3.5 milyan oo qof cybersecurity ah sannadkii |
+| 🌍 Shaqo fog | Shaqooyin badan meel fog ayaa laga qaban karaa, iyadoo qofku joogo Muqdisho, Hargeysa, Boosaaso ama meel kale. |
+| 🎓 Shahaado jaamacadeed khasab ma aha | Xirfad la taaban karo, mashruucyo aad qabatay iyo awoodda aad wax ku sharxi karto ayaa iyaguna muhiim ah. |
+| 🆓 Agab bilaash ah | Waxaa jira koorsooyin iyo shaybaarro internetka yaalla oo bilaash lagu bilaabi karo. |
+| 📈 Baahi sii kordhaysa | Hay'adaha iyo shirkaduhu waxay u baahan yihiin dad ilaaliya nidaamyadooda iyo xogtooda. |
 
-**Runta aan qarso:** waa waddada dheer. Laakiin **joogteyn** (consistency) iyo **dhaqan celin** (practice) ayaa kuu geeya. Hal saac maalintii, saddex bilood, waad diyaar noqon kartaa haggaha hore.
+**Ogow:** barashadu waqti iyo ku celcelin ayay u baahan tahay. Hal saac oo joogto ah maalintii ayaa ka waxtar badan dadaal badan oo hal mar ah.
 
 ---
 
-## 🗺️ Khariidadda Waddada (The Roadmap)
+## 🗺️ Khariidadda waxbarashada
 
-```
-                          ┌──────────────────────────────┐
-                          │  MARXALAD 0: AASAASKA        │
-                          │  kombuyuutarrada + internet  │
-                          └──────────────┬───────────────┘
-                                         ▼
-                          ┌──────────────────────────────┐
-                          │  MARXALAD 1: SHABAKADDA        │
-                          │  TCP/IP · DNS · HTTP           │
-                          └──────────────┬───────────────┘
-                                         ▼
-                          ┌──────────────────────────────┐
-                          │  MARXALAD 2: LINUX            │
-                          │  terminal · bash · server-yada │
-                          └──────────────┬───────────────┘
-                                         ▼
-                          ┌──────────────────────────────┐
-                          │  MARXALAD 3: BARNAAMIJYADA    │
-                          │  Python · Bash                │
-                          └──────────────┬───────────────┘
-                                         ▼
-                          ┌──────────────────────────────┐
-                          │  MARXALAD 4: AMNIGA WEB-KA    │
-                          │  OWASP Top 10 · Burp Suite     │
-                          └──────────────┬───────────────┘
-                                         ▼
-                          ┌──────────────────────────────┐
-                          │  MARXALAD 5: WEERARKA          │
-                          │  pentesting · AD · cloud       │
-                          └──────────────┬───────────────┘
-                                         ▼
-                          ┌──────────────────────────────┐
-                          │  MARXALAD 6: DIFAACA (Blue)   │
-                          │  SOC · SIEM · incident        │
-                          └──────────────┬───────────────┘
-                                         ▼
-                          ┌──────────────────────────────┐
-                          │  MARXALAD 7: DHAQAN CELIN      │
-                          │  CTF · labs · bug bounty       │
-                          └──────────────┬───────────────┘
-                                         ▼
-                          ┌──────────────────────────────┐
-                          │  MARXALAD 8: SHAQADA          │
-                          │  CV · LinkedIn · mushahar      │
-                          └──────────────────────────────┘
+```text
+Marxalad 0: Aasaaska kombiyuutarka iyo internetka
+                 ↓
+Marxalad 1: Shabakadaha — TCP/IP, DNS, HTTP
+                 ↓
+Marxalad 2: Linux iyo khadka amarrada
+                 ↓
+Marxalad 3: Barnaamij-samaynta — Python iyo Bash
+                 ↓
+Marxalad 4: Amniga barnaamijyada webka
+                 ↓
+Marxalad 5: Amniga shabakadaha iyo adeegyada daruuraha
+                 ↓
+Marxalad 6: Difaaca — SOC, SIEM iyo ka-jawaabidda dhacdooyinka
+                 ↓
+Marxalad 7: Ku celcelin — CTF, shaybaarro iyo barnaamijyada bug bounty
+                 ↓
+Marxalad 8: Shaqo raadis iyo shahaadooyin
 ```
 
 ---
 
-## 📚 Marxaladaha (The Phases)
+## 📚 Marxaladaha
 
-| # | Marxalad | Waqti la qiyaaso | Link |
+| # | Marxalad | Qiyaasta waqtiga | Hagaha |
 |---|---|---|---|
-| 0 | Aasaaska — kombuyuutarrada iyo internet-ka | 1-2 toddobaad | [01-aasaaska.md](01-aasaaska.md) |
-| 1 | Shabakadda (Networking) | 3-4 toddobaad | [02-shabakadda.md](02-shabakadda.md) |
-| 2 | Linux | 3-4 toddobaad | [03-linux.md](03-linux.md) |
-| 3 | Barnaamijyada (Python + Bash) | 4-6 toddobaad | [04-barnaamijyada.md](04-barnaamijyada.md) |
-| 4 | Amniga Web-ka | 8-12 toddobaad | [05-amniga-web-ka.md](05-amniga-web-ka.md) |
-| 5 | Amniga Shabakadda & Cloud-ka | 6-8 toddobaad | [06-amniga-shabakadda.md](06-amniga-shabakadda.md) |
-| 6 | Difaaca (Blue Team / SOC) | 4-6 toddobaad | [07-difaaca.md](07-difaaca.md) |
-| 7 | Dhaqan Celin (CTF, Labs, Bug Bounty) | socod socod | [08-dhaqan-celin.md](08-dhaqan-celin.md) |
-| 8 | Shaqada iyo Certificates-ka | 2-4 toddobaad | [09-shaqada.md](09-shaqada.md) |
-| — | Liis buuxa oo agab ah | — | [resources.md](resources.md) |
+| 0 | Aasaaska kombiyuutarka iyo internetka | 1–2 toddobaad | [01-aasaaska.md](01-aasaaska.md) |
+| 1 | Shabakadaha | 3–4 toddobaad | [02-shabakadda.md](02-shabakadda.md) |
+| 2 | Linux | 3–4 toddobaad | [03-linux.md](03-linux.md) |
+| 3 | Barnaamij-samaynta: Python iyo Bash | 4–6 toddobaad | [04-barnaamijyada.md](04-barnaamijyada.md) |
+| 4 | Amniga barnaamijyada webka | 8–12 toddobaad | [05-amniga-web-ka.md](05-amniga-web-ka.md) |
+| 5 | Amniga shabakadaha iyo adeegyada daruuraha | 6–8 toddobaad | [06-amniga-shabakadda.md](06-amniga-shabakadda.md) |
+| 6 | Difaaca iyo hawlaha SOC | 4–6 toddobaad | [07-difaaca.md](07-difaaca.md) |
+| 7 | Ku celcelin: CTF, shaybaarro iyo bug bounty | Joogto | [08-dhaqan-celin.md](08-dhaqan-celin.md) |
+| 8 | Shaqo raadis iyo shahaadooyin | 2–4 toddobaad | [09-shaqada.md](09-shaqada.md) |
+| — | Liiska agabka iyo xiriiriyeyaasha | — | [resources.md](resources.md) |
 
-**Wadarta waqtiga (hal saac maalintii):** 12-18 bilood laga bilaabo eber illaa shaqo-diyaar.
-
----
-
-## 🚀 Sida Loo Isticmaalo Buuggani
-
-```
-1. Fur    Marxaladda 0         → akhri, ku dhaqmo
-2. Dhammaystir  imtixaankaa    → marxaaladda "🏁 Imtixaanka" dhammaystir ka hor intaadan dhaqaajin
-3. Raac   marxaladda xiga      → waddada hoos ka fiiri
-4. Ku dhaqmo maalintii dhan     → tutorial-yada oo keliya ma ahan barasho!
-5. Markaad dhamaatay           → shaqada iyo certificates-ka (Marxalad 8)
-```
-
-> **Xeerka dahabka ah:** Hal saac waxbarasho maalintii, maalmaha 5 todobaadkii, mudo dheer. Joogteyn ayaa ka fiican degdeg.
+Waqtiyadu waa qiyaas keliya; waxay ku xiran yihiin waqtiga aad heli karto iyo aqoonta aad hore u leedahay.
 
 ---
 
-## 🔗 Agab Muhiim ah (Bilaash!)
+## Sida hagahan looga faa'iidaysto
 
-| Agab | Waxa ay tahay | Link |
+1. Ka bilow Marxaladda 0, xitaa haddii qayb ka mid ahi kuu fududahay.
+2. Akhri casharka, dabadeed ku samee hawlaha tababarka.
+3. Isticmaal liiska hubinta si aad u ogaato waxa kuu dhammaystiran iyo waxa kuu hadhay.
+4. U gudub marxaladda xigta marka aad si kalsooni leh u sharxi karto oo u adeegsan karto waxyaabaha aasaasiga ah.
+5. Qor waxa aad baratay iyo mashaariicda aad qabatay; qoraalladaasi waxay noqon karaan qayb ka mid ah galkaaga shaqo (portfolio).
+
+> **Talo:** ha ku ekaan daawashada casharrada. Waxaad wax badan baranaysaa marka aad adigu wax tijaabiso, khaladka fahanto, dabadeedna saxdo.
+
+---
+
+## 🔗 Agab aad ku bilaabi karto
+
+| Agab | Waxa uu bixiyaa | Xiriiriye |
 |---|---|---|
-| **PortSwigger Academy** | Web security — lab-yada ugu fiican dunida, **100% bilaash** | [portswigger.net/web-security](https://portswigger.net/web-security) |
-| **TryHackMe** | Rooms interactive ah, beginner-friendly | [tryhackme.com](https://tryhackme.com) |
-| **OverTheWire Bandit** | Game Linux barayo | [overthewire.org](https://overthewire.org/wargames/bandit/) |
-| **freeCodeCamp** | Programming bilaash | [freecodecamp.org](https://www.freecodecamp.org) |
-| **PicoCTF** | CTF beginner-friendly | [picoctf.org](https://picoctf.org) |
-| **HackTheBox** | Machines dhab ah | [hackthebox.com](https://www.hackthebox.com) |
+| **PortSwigger Web Security Academy** | Casharro iyo shaybaarro amniga webka ah oo bilaash ah | [portswigger.net/web-security](https://portswigger.net/web-security) |
+| **TryHackMe** | Casharro isdhexgal leh iyo waddooyin waxbarasho | [tryhackme.com](https://tryhackme.com) |
+| **OverTheWire: Bandit** | Ciyaar lagu barto Linux iyo khadka amarrada | [overthewire.org/wargames/bandit](https://overthewire.org/wargames/bandit/) |
+| **freeCodeCamp** | Casharro barnaamij-samayn oo bilaash ah | [freecodecamp.org](https://www.freecodecamp.org) |
+| **PicoCTF** | Tartammo iyo hawlo amni oo bilowga ku habboon | [picoctf.org](https://picoctf.org) |
+| **Hack The Box** | Shaybaarro iyo mashiinno tababar | [hackthebox.com](https://www.hackthebox.com) |
 
-Liis buuxa: **[resources.md](resources.md)**
-
----
-
-## ⚖️ Anshaxa (Ethics)
-
-Wax kasta oo halkan ku qoran waxaa loogu talagalay **barasho iyo hubin la oggolaaday** (authorized testing). Weerarka nidaam aan lahayn ogolaanshe qoran waa **dembi** — Soomaaliya iyo dunida oo dhan (Cybercrime Bill 2019). Cybersecurity-ku waa difaaca; hacker-ka wanaagsan wuxuu hubiyaa si sharci ah.
+Liiska oo dhammaystiran ka eeg [resources.md](resources.md).
 
 ---
 
-## 📜 Sharciga
+## ⚖️ Anshaxa iyo oggolaanshaha
 
-MIT — eeg [LICENSE](LICENSE). Isticmaal, wadaag, tarjum, horay uga celi dhalinyarada.
+Hagahan waxaa loogu talagalay waxbarasho iyo tijaabo amni oo **oggolaansho leh**. Ha tijaabin nidaam aadan lahayn ama aan laguu fasixin. Tijaabada nidaam dhab ah waxay u baahan tahay oggolaansho cad iyo xuduud la qeexay. Raac shuruucda dalkaaga iyo xeerarka goob kasta oo aad ku tababaranayso.
 
-*Waxaa dhigay Edxx1 — dhalinyarada Soomaaliyeed, soo gal cybersecurity-ka. Geesi ahaaw.* 🥷🇸🇴
+---
+
+## 📜 Laysanka
+
+MIT — eeg [LICENSE](LICENSE). Waad adeegsan kartaa oo wadaagi kartaa adigoo ilaalinaya shuruudaha laysanka.
+
+*Waxaa diyaariyey EdPwn1 si uu u dhiirrigeliyo dhalinyarada Soomaaliyeed inay bartaan amniga internetka.* 🇸🇴

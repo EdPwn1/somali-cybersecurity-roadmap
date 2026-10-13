@@ -1,67 +1,74 @@
-# Marxalad 7 · Dhaqan Celin — CTF, Labs & Bug Bounty
+# Marxalad 7 · Ku celcelin — CTF, Shaybaarro iyo Bug Bounty
 
-> Waxbarashada oo keliya ma bixin xirfad. Dhaqan celinta dhabta ah — CTF-yada, lab-yada, iyo bug bounty-ga — ayaa kuu dhigta qof dhab ah. Marxaladdani way socoto weligeed.
+> Akhriska keliya xirfad kuma filna. Shaybaarro iyo tartammo ku tababar, kuna shaqee oo keliya nidaamyo aad leedahay ama si cad kuu fasaxay. Marxaladdani waxay socotaa inta aad xirfadda kobcinayso.
 
 ---
 
 ## 🎯 Hadaf
-Ku dhaqmo xirfadahaaga dhab ah: CTF-yada tartanka, lab-yada, iyo bilowga bug bounty-ga.
 
-## 📚 Waddadaha Dhaqan Celinta
+Ku dabaq aqoontaada tartamada CTF, shaybaarro amni iyo—marka aad diyaar noqoto—barnaamijyada bug bounty-ga.
 
-### 1. CTF (Capture The Flag)
-Raadi "flags" (erey sirta ah) machines-yada dhaawac leh.
-| Goob | Heerka | Link |
+## 1. Tartamada CTF
+
+CTF (Capture The Flag) waa tartan ama layli aad ku xalliso caqabado amni oo si gaar ah loogu diyaariyey tababar.
+
+| Goob | Heerka | Xiriiriye |
 |---|---|---|
-| **PicoCTF** | Bilow (dhalinyaro!) | [picoctf.org](https://picoctf.org) |
-| **TryHackMe** | Bilow → dhexe | [tryhackme.com](https://tryhackme.com) |
-| **HackTheBox** | Dhexe → sare | [hackthebox.com](https://www.hackthebox.com) |
-| **CTFtime** | Tartannyada caalamka | [ctftime.org](https://ctftime.org) |
+| **PicoCTF** | Bilowga iyo ardayda | [picoctf.org](https://picoctf.org) |
+| **TryHackMe** | Bilow ilaa heer dhexe | [tryhackme.com](https://tryhackme.com) |
+| **Hack The Box** | Heer dhexe iyo sare | [hackthebox.com](https://www.hackthebox.com) |
+| **CTFtime** | Jadwalka tartamada CTF | [ctftime.org](https://ctftime.org) |
 
-### 2. Lab-yada dhaawacyada
-- [DVWA](https://github.com/digininja/DVWA) — ab dhaawac leh (level adjustable)
-- [OWASP Juice Shop](https://owasp.org/www-project-juice-shop/) — casri, 100+ challenges
-- [bWAPP](https://sourceforge.net/projects/bwapp/) — 100+ bugs
-- [PortSwigger Academy](https://portswigger.net/web-security) — mar labaad, waana wanaagsan yahay!
+## 2. Shaybaarrada amniga
 
-### 3. Bug Bounty (lacag dhab ah!)
-| Goob | Waxa | Link |
+- [DVWA](https://github.com/digininja/DVWA) — barnaamij web oo si ula kac ah loogu diyaariyey tababar amni.
+- [OWASP Juice Shop](https://owasp.org/www-project-juice-shop/) — shaybaar casri ah oo leh caqabado badan.
+- [bWAPP](https://sourceforge.net/projects/bwapp/) — shaybaar leh casharro nuglaansho kala duwan.
+- [PortSwigger Academy](https://portswigger.net/web-security) — casharro iyo shaybaarro amniga webka ah.
+
+## 3. Bug bounty
+
+Barnaamijyada bug bounty-gu waxay cilmi-baarayaasha u oggolaadaan inay nuglaansho ka raadiyaan hanti si cad loogu daray baaxadda barnaamijka. **Akhri xeerarka iyo baaxadda ka hor tijaabo kasta.** Ha taaban nidaam aan ku jirin baaxadda la oggolaaday.
+
+| Goob | Waxa ay bixiso | Xiriiriye |
 |---|---|---|
-| **HackerOne** | Platform-ka ugu weyn | [hackerone.com](https://www.hackerone.com) |
-| **Bugcrowd** | Mid weyn labaad | [bugcrowd.com](https://www.bugcrowd.com) |
-| **Intigriti** | Yurub | [intigriti.com](https://www.intigriti.com) |
+| **HackerOne** | Barnaamijyo bug bounty iyo warbixinno la daabacay | [hackerone.com](https://www.hackerone.com) |
+| **Bugcrowd** | Barnaamijyo tijaabo amni | [bugcrowd.com](https://www.bugcrowd.com) |
+| **Intigriti** | Barnaamijyo bug bounty, gaar ahaan Yurub | [intigriti.com](https://www.intigriti.com) |
 
-**Habka bounty-ga:**
-1. Akhri scope-ka barnaamijka (maxaa la oggol yahay!)
-2. Bilow target wide-scope ah (recon: subdomains, JS, endpoints)
-3. U horjeedka: IDOR, access control, business logic
-4. Qor warbixin fiican (impact + steps + PoC)
-5. **Akhri disclosed reports** maalintii — waxaa ka bartaa waxyaabo badan: [hackerone.com/hacktivity](https://hackerone.com/hacktivity)
+### Sida si masuuliyad leh loogu bilaabo
 
-## 🔗 Agab Dheeraad ah
+1. Dooro barnaamij oo akhri xeerarkiisa, hantida ku jirta baaxadda iyo waxa mamnuuca ah.
+2. Ku tababar oo keliya hantida ku jirta baaxadda, adigoo raacaya xaddidaadaha barnaamijka.
+3. Bilow inaad barato qaybaha muuqda: endpoints, JavaScript iyo hab-dhaqanka app-ka—adigoon dirin tijaabooyin xad-dhaaf ah.
+4. Haddii aad hesho dhibaato, ku xaqiiji koontooyin iyo xog tijaabo ah oo aad adigu maamusho.
+5. Qor warbixin kooban oo cad: tallaabooyinka dib loogu soo saaro, saamaynta la xaqiijiyey iyo talada hagaajinta.
+6. Akhri warbixinnada dadweynaha si aad uga barato habka qorista iyo khaladaadka caanka ah: [hackerone.com/hacktivity](https://hackerone.com/hacktivity).
 
-| Agab | Waxa | Link |
+## 🔗 Agab dheeraad ah
+
+| Agab | Waxa uu bixinayo | Xiriiriye |
 |---|---|---|
-| **NahamSec** | Bounty dhab | [youtube.com/@NahamSec](https://www.youtube.com/@NahamSec) |
-| **InsiderPhD** | Bilowga bounty-ga | [youtube.com/@InsiderPhD](https://www.youtube.com/@InsiderPhD) |
-| **LiveOverflow** | Fikir qoto dheer | [youtube.com/@LiveOverflow](https://www.youtube.com/@LiveOverflow) |
-| **PayloadsAllTheThings** | Payload encyclopedia | [github.com/swisskyrepo/PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings) |
-| **HackTricks** | Technique encyclopedia | [hacktricks.xyz](https://book.hacktricks.xyz) |
+| **NahamSec** | Muuqaallo ku saabsan bug bounty | [youtube.com/@NahamSec](https://www.youtube.com/@NahamSec) |
+| **InsiderPhD** | Talooyin loogu talagalay dadka ku cusub bug bounty-ga | [youtube.com/@InsiderPhD](https://www.youtube.com/@InsiderPhD) |
+| **LiveOverflow** | Falanqayn qoto dheer oo amniga ah | [youtube.com/@LiveOverflow](https://www.youtube.com/@LiveOverflow) |
+| **PayloadsAllTheThings** | Tusaalooyin iyo farsamooyin tijaabo | [github.com/swisskyrepo/PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings) |
+| **HackTricks** | Buug tixraac farsamooyin amni | [book.hacktricks.xyz](https://book.hacktricks.xyz) |
 
-## ✅ Liiska Hubinta
+## ✅ Liiska hubinta
 
-- [ ] Waan ka qayb galay CTF hal ah (PicoCTF ugu yaraan 20 flags)
-- [ ] Waan dhammaystiray lab buuxa (Juice Shop score-board 50%+)
-- [ ] Waan abuuray akoon HackerOne/Bugcrowd
-- [ ] Waan akhriyay 10 disclosed reports ah
-- [ ] Waan soo gudbiyay warbixin bounty hal ah (ataa marka hore la diidana — waxay tahay barasho!)
-- [ ] Waan qoray writeup-yo GitHub-gayga (portfolio!)
+- [ ] Waxaan ka qayb qaatay ugu yaraan hal CTF oo bilow ah.
+- [ ] Waxaan dhammaystiray shaybaar waxbarasho, sida Juice Shop.
+- [ ] Waxaan akhriyey ugu yaraan toban warbixin oo dadweyne ah.
+- [ ] Waxaan ku tababaray baaxad si cad loo oggolaaday.
+- [ ] Waxaan qoray dhowr qoraal oo sharxaya waxa aan shaybaarka ka bartay.
 
-## ⏱️ Waqti La Qiyaaso
-Socod socod (weligeed) — ugu yaraan 5 saac toddobaadkii ka dib barashada aasaasiga ah
+## ⏱️ Waqtiga qiyaasta ah
 
-## 🏁 Imtixaanka (Milestone)
+Waa marxalad joogto ah. Ka dib aasaaska, isku day inaad toddobaad kasta waqti u qoondayso ku celcelinta.
 
-**Hal ka mid ah:** CTF ranking (PicoCTF dhamaystiran) · writeup-yo 5 ah GitHub · warbixin bounty ah la qaatay. Mid kasta waxay ahayd arag caan ah shaqada kuugu diyaarinaysa.
+## 🏁 Hawsha lagu hubinayo horumarka
 
-→ Xig: [09-shaqada.md](09-shaqada.md)
+Dhammaystir CTF ama shaybaar, qor qoraal sharxaya casharka aad ka baratay, oo ku kaydi galkaaga shaqo. Markaad bilowdo bug bounty, raac shuruudaha barnaamijka si buuxda.
+
+→ Marka xigta: [Marxaladda 8: Shaqo raadis](09-shaqada.md)

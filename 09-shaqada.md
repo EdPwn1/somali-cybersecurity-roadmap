@@ -1,69 +1,71 @@
-# Marxalad 8 · Shaqada iyo Certificates-ka
+# Marxalad 8 · Shaqo raadis iyo shahaadooyin
 
-> Waxaad hadda xirfad leedahay — sida loo tuso iyo sida loo helo shaqo? Halkan waxaad baranaysaa certificates-ka, portfolio-ga, CV-ga, iyo raadinta shaqada (inta badan remote ah).
+> Marka aad xirfadaha aasaasiga ah dhisto, baro sida aad u soo bandhigi lahayd shaqadaada una raadin lahayd fursado ku habboon. Shahaadooyinku way caawin karaan, laakiin ma beddelaan ku celcelinta iyo mashruucyada aad qaban karto.
 
 ---
 
 ## 🎯 Hadaf
-Noqo mid shaqo-diyaar: portfolio GitHub, CV fiican, LinkedIn profile, iyo jawabaha warbixinta (interviews).
 
-## 📚 Certificates-ka (Tartibka Saxda ah)
+Diyaari gal shaqo (portfolio), CV iyo bog LinkedIn oo muujinaya aqoontaada; baro waddooyinka shahaadooyinka iyo shaqo raadinta.
 
-| Certificate | Heerka | Waqti | Qiimaha |
+## 📚 Shahaadooyin la tixgelin karo
+
+| Shahaado | Heerka | Qiyaasta diyaarinta | Xusuusin |
 |---|---|---|---|
-| **CompTIA Security+** | Bilow — doorasho | 2-3 bilood | ~$400 (exam) |
-| **eJPT** (INE) | Pentesting bilow | 1-2 bilood | ~$250 |
-| **PJPT** (TCM) | Pentesting dhab | 2 bilood | ~$300 |
-| **PNPT** (TCM) | Heer sare | 3-4 bilood | ~$500 |
-| **OSCP** (OffSec) | **Caanka ugu weyn** | 4-6 bilood | ~$1,600 |
-| **BSCP** (PortSwigger) | Web security casri | 2-3 bilood | ~$500 |
+| **CompTIA Security+** | Aasaasi | 2–3 bilood | Shahaado guud oo amni; ka hubi qiimaha imtixaanka bogga rasmiga ah. |
+| **eJPT** (INE) | Tijaabinta amniga, bilow | 1–2 bilood | Imtixaan wax-ku-ool ah; hubi shuruudaha iyo qiimaha hadda. |
+| **PJPT** (TCM) | Tijaabinta amniga, bilow/dhexe | 2 bilood | Hubi manhajka iyo qiimaha bogga rasmiga ah. |
+| **PNPT** (TCM) | Heer dhexe | 3–4 bilood | Imtixaan wax-ku-ool ah iyo warbixin. |
+| **OSCP** (OffSec) | Heer sare | 4–6 bilood ama ka badan | U baahan diyaargarow adag; hubi qiimaha iyo shuruudaha hadda. |
+| **BSCP** (PortSwigger) | Amniga webka | 2–3 bilood | Shahaado ku takhasustay web security. |
 
-**Talloomaha:** Bilow **Security+** ama u dhaqmo bug bounty-ga hortii (lacag la'aan!). Certificates-ka waaweyn (OSCP) ka dib markaad xirfad hesho — ha bilaabin lacag weyn ka hor intaadan hubin inaad jeceshahay.
+**Talo:** ka hor intaadan lacag badan gelin shahaado, tijaabi koorsooyin iyo shaybaarro bilaash ah si aad u ogaato qaybta aad jeceshahay. Qiimaha shahaadooyinku wuu isbeddelaa; ka hubi bogga rasmiga ah.
 
-## 📚 Portfolio-ga (Muhiim ka badan certificates-ka!)
+## 📁 Dhis galkaaga shaqo (portfolio)
 
+```text
+1. GitHub: ku qor casharrada aad ka baratay CTF-yada iyo shaybaarrada.
+2. GitHub: ku kaydi scripts waxbarasho oo aad adigu qortay.
+3. Blog: ku sharax fikradaha amniga adigoo adeegsanaya tusaalooyin shaybaar.
+4. Bug bounty: muuji oo keliya warbixinno aad xaq u leedahay inaad shaaciso.
 ```
-1. GitHub: qor writeup-yo CTF/labs kasta oo aad dhammaystirto
-2. GitHub: scripts-yadaada (recon tools, scanners)
-3. Blog (bilaash): Medium ama GitHub Pages — sharax dhaawacyada
-4. HackerOne/Bugcrowd: profile leh reports la aqbalay
-```
-Tusaale portfolio fiican: 5-10 writeups ah oo sharafta leh. Tusaale: `webapp-pentest-masterclass` repo-ga waxaa ku jira hage dhammaystiran.
 
-## 🔗 Agab Shaqada
+Bilowga, shan qoraal oo tayo leh ayaa ka waxtar badan qoraallo badan oo aan faahfaahsanayn. Ha daabicin xog sir ah, xog qof kale leeyahay, ama faahfaahin barnaamijka bounty-gu mamnuucay.
 
-| Agab | Waxa | Link |
+## 🔗 Agab shaqo raadis
+
+| Agab | Waxa uu bixinayo | Xiriiriye |
 |---|---|---|
-| **LinkedIn** | Shaqada #1 goobta | [linkedin.com](https://www.linkedin.com) |
-| **Upwork** | Freelancing (remote) | [upwork.com](https://www.upwork.com) |
-| **Remote OK** | Jobs remote ah | [remoteok.com](https://remoteok.com) |
-| **HackerOne** | Bounty lacag | [hackerone.com](https://www.hackerone.com) |
-| **CV Template** | Qor CV fiican | [zety.com/cv-templates](https://zety.com/cv-templates) |
+| **LinkedIn** | Xiriir xirfadeed iyo shaqooyin | [linkedin.com](https://www.linkedin.com) |
+| **Upwork** | Fursado shaqo-fog iyo madax-bannaan | [upwork.com](https://www.upwork.com) |
+| **Remote OK** | Shaqooyin fog oo qaybo kala duwan ah | [remoteok.com](https://remoteok.com) |
+| **HackerOne** | Barnaamijyo bug bounty | [hackerone.com](https://www.hackerone.com) |
+| **Zety CV templates** | Tusaalooyin CV; adeegyada qaar lacag ayay noqon karaan | [zety.com/cv-templates](https://zety.com/cv-templates) |
 
-## ✅ Liiska Hubinta
+## ✅ Liiska hubinta
 
-- [ ] Waan helay certificate hal (ama waan dhaqmay bounty-ga)
-- [ ] GitHub-kayga wuxuu leeyahay writeups 5+
-- [ ] LinkedIn-kaygu waa buuxa (bio, skills, portfolio links)
-- [ ] CV-gaygu waa hal bog (xirfadaha, lab-yada, projects)
-- [ ] Waan codsaday 20+ shaqo (remote + local)
-- [ ] Waan diyaar garay interviews (falanqaynta dhaawaca, ha ku sii daa walaac!)
+- [ ] Waxaan doortay shahaado ku habboon heerka iyo miisaaniyaddayda, ama waxaan dhisay portfolio wax-ku-ool ah.
+- [ ] GitHub-kayga waxaa ku jira ugu yaraan shan mashruuc ama qoraal tayo leh.
+- [ ] Boggeyga LinkedIn wuxuu leeyahay xog kooban oo sax ah iyo xiriirinta portfolio-gayga.
+- [ ] CV-gaygu wuxuu si cad u muujinayaa xirfadaha, shaybaarrada iyo mashaariicda aan qabtay.
+- [ ] Waxaan diyaariyey tusaalooyin aan wareysiga kaga hadlo.
+- [ ] Waxaan codsaday shaqooyin ku habboon heerka iyo xirfaddayda.
 
-## ⏱️ Waqti La Qiyaaso
-2-4 toddobaad (ka dib marxaladaha hore)
+## ⏱️ Waqtiga qiyaasta ah
 
-## 🏁 Imtixaanka (Milestone)
+2–4 toddobaad oo diyaar-garow ah; shaqo raadintu way sii socon kartaa.
 
-**Hal ka mid ah:** Shaqada ugu horeysa (SOC analyst ama junior pentester ama bounty lacag leh) · ama interview hal ah oo aad dhaqantay fiican. **Waddadu way dhammaatay — hawsha ayaa bilaabmaya!**
+## 🏁 Hawsha lagu hubinayo horumarka
+
+Diyaari CV iyo portfolio, dabadeed codso shaqooyin ama tababarro ku habboon heerkaaga. Ku celceli inaad si cad u sharaxdo mashruuc aad qabatay, caqabaddii ku haysatay, iyo sida aad u xallisay.
 
 ---
 
-## 🎓 La Xus: Fursadaha Dhalinyarada Soomaaliyeed
+## Fursadaha dhalinyarada Soomaaliyeed
 
-- **Remote work:** Shirkadaha Yurub/Ameerika waxay raadayaan talent masaafad dheer — waqtiga (timezone) Soomaaliya waa mid fiican Yurubta
-- **Freelancing:** Upwork/Fiverr — pentest yar, recon, bug bounty writeups
-- **Bug bounty:** Lacag toos ah adiga oo guriga joogo (HackerOne payout-yada waa dhab)
-- **Barasho bilaash:** Agabta waxaa inta badan bilaash (PortSwigger, TryHackMe free tier)
-- **Bulshada:** Soo gal Discord-yada, Telegram-yada Somali tech — bar oo wax wadaag
+- **Shaqo fog:** qaar ka mid ah shirkadaha caalamiga ahi waxay shaqaaleysiiyaan dad meel fog ka shaqeeya; shuruudaha iyo goobaha la aqbalo shirkad kasta ayay ku xiran yihiin.
+- **Shaqo madax-bannaan:** ka raadi fursado sharci ah oo xirfaddaada ku habboon, adigoo ilaalinaya xeerarka goobta aad ka shaqaynayso.
+- **Bug bounty:** waxaa suuragal ah in abaalmarin la helo, balse dakhliga lama hubo; akhri baaxadda iyo xeerarka barnaamij kasta.
+- **Bulsho:** ku biir kooxo waxbarasho oo ixtiraama anshaxa iyo oggolaanshaha.
 
-> **Xeerka ugu dambeeya:** Joogteyn. Hal saac maalintii, waqti dheer. Qof kasta oo cybersecurity ah oo aad naqiso wuxuu mar ka bilaabay eber. Adiga hadda bilow — Soomaaliya waxay u baahan tahay geesiyo cyber ah. 🇸🇴🥷
+> **Xusuusnow:** qof kasta meel ayuu ka bilaabaa. Baro si joogto ah, ku tababar deegaan ammaan ah, una isticmaal xirfaddaada si masuuliyad leh.

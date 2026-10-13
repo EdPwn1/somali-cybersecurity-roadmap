@@ -1,69 +1,73 @@
-# Marxalad 4 · Amniga Web-ka (Web Security)
+# Marxalad 4 · Amniga barnaamijyada webka
 
-> Marxaladda ugu weyn! Web-ka ayaa ah barwaaqada ugu ballaaran ee dhaawacyada amniga. Halkan waxaad baranaysaa OWASP Top 10, Burp Suite, iyo dhammaan dhaawacyada web-ka — adigoo ku dhaqmayo lab-yada caalamka ugu fiican.
+> Marxaladdani waxay ku baraysaa sida barnaamijyada webku u shaqeeyaan iyo sida amnigooda loogu tijaabiyo shaybaarro iyo barnaamijyo fasax bixiyey. Bilowga ugu fiican waa PortSwigger Web Security Academy.
 
 ---
 
 ## 🎯 Hadaf
-Hel, faham, iyo faaiidee dhaawacyada web-ka (SQLi, XSS, IDOR, iwm) — adigoo isticmaalaya Burp Suite.
 
-## 📚 Waxa La Barta
+Faham codsiyada webka, baro OWASP Top 10, oo si ammaan ah ugu tababar Burp Suite iyo shaybaarro loogu talagalay waxbarashada.
 
-### Aasaaska web-ka (marka hore)
-- HTTP dib u fiiri: methods, status codes, headers, cookies, sessions
-- HTML/JS aasaas: DOM, forms
-- Sida web-ka uu u shaqeeyo: client (browser) → server → database
+## 📚 Mawduucyada la baranayo
 
-### OWASP Top 10 (dhaawacyada waaweyn)
-| # | Dhaawaca | Waa maxay (hal sadar) |
+### Aasaaska webka
+- HTTP methods, status codes, headers, cookies iyo sessions.
+- HTML iyo JavaScript aasaasi ah; DOM iyo foomamka.
+- Sida browser-ku ula xiriirayo server-ka iyo database-ka.
+
+### OWASP Top 10
+
+| # | Qaybta khatarta | Sharaxaad kooban |
 |---|---|---|
-| 1 | **Broken Access Control** (IDOR) | beddel ID → hel xogta qof kale |
-| 2 | **Cryptographic Failures** | xog la aamini la'aan |
-| 3 | **Injection** (SQLi, XSS) | input-ka oo query/koodh noqda |
-| 4 | **Insecure Design** | naqshad dhaawac leh |
-| 5 | **Security Misconfiguration** | hab habboon la'aan |
-| 6 | **Vulnerable Components** | libs duq ah |
-| 7 | **Auth Failures** | login/reset/MFA daciif |
-| 8 | **Data Integrity** | xog la beddeli karo |
-| 9 | **Logging Failures** | la soodegin khaladaadka |
-| 10 | **SSRF** | server-ka oo URL-kaaga soo qaada |
+| 1 | Broken Access Control | Isticmaale ayaa heli kara xog ama hawl aanu fasax u lahayn; IDOR waa tusaale. |
+| 2 | Cryptographic Failures | Xog xasaasi ah oo aan si habboon loo ilaalin ama loo sirgelineyn. |
+| 3 | Injection | Gelin aan la hubin oo saamaysa query ama amar, sida SQL injection. |
+| 4 | Insecure Design | Naqshad aan tixgelin khataraha amniga. |
+| 5 | Security Misconfiguration | Dejimo khaldan ama aan ammaan ahayn. |
+| 6 | Vulnerable Components | Maktabado ama software duugoobay oo nugul. |
+| 7 | Authentication Failures | Dhibaatooyin login, password reset ama MFA ah. |
+| 8 | Software and Data Integrity Failures | Kalsoonida software-ka ama xogta oo aan la xaqiijin. |
+| 9 | Security Logging and Monitoring Failures | Dhacdooyinka amniga oo aan si ku filan loo diiwaangelin ama loola socon. |
+| 10 | SSRF | Server-ka oo codsi u dira meel uu isticmaaluhu tilmaamay, iyadoo aan si fiican loo xaddidin. |
 
-### Qalabyada
-- **Burp Suite** (Community, bilaash) — qalabka #1
-- Browser DevTools (Network tab)
-- DVWA, OWASP Juice Shop (lab-yada)
+### Qalabka iyo shaybaarrada
+- Burp Suite Community iyo browser DevTools.
+- DVWA iyo OWASP Juice Shop oo ku shaqaynaya kombiyuutarkaaga.
+- Tijaabi oo keliya shaybaarro, nidaamyo aad leedahay, ama bartilmaameed si cad kuu fasaxay.
 
-## 🔗 Agab (Bilaash)
+## 🔗 Agab bilaash ah
 
-| Agab | Waxa ay tahay | Link |
+| Agab | Waxa uu bixinayo | Xiriiriye |
 |---|---|---|
-| **PortSwigger Web Security Academy** | **AH KHASAARA MA LIHI** — lab-yada ugu fiican dunida | [portswigger.net/web-security](https://portswigger.net/web-security) |
-| **OWASP Top 10** | Liiska rasmiga ah | [owasp.org/Top10](https://owasp.org/Top10/) |
-| **TryHackMe — Web Fundamentals** | Path buuxa | [tryhackme.com/path/outline/web](https://tryhackme.com/path/outline/web) |
-| **DVWA** | Lab abka dhaawaca leh | [github.com/digininja/DVWA](https://github.com/digininja/DVWA) |
-| **OWASP Juice Shop** | Lab casri ah | [owasp.org/www-project-juice-shop](https://owasp.org/www-project-juice-shop/) |
-| **NahamSec — YouTube** | Bug bounty dhab ah | [youtube.com/@NahamSec](https://www.youtube.com/@NahamSec) |
-| **STÖK — YouTube** | Fikirka bounty-ga | [youtube.com/@stokfredrik](https://www.youtube.com/@stokfredrik) |
+| **PortSwigger Web Security Academy** | Casharro iyo shaybaarro bilaash ah oo amniga webka ah | [portswigger.net/web-security](https://portswigger.net/web-security) |
+| **OWASP Top 10** | Liiska iyo sharaxaadda khataraha waaweyn | [owasp.org/Top10](https://owasp.org/Top10/) |
+| **TryHackMe — Web Fundamentals** | Qaybo isdhexgal leh oo ku saabsan webka | [tryhackme.com/path/outline/web](https://tryhackme.com/path/outline/web) |
+| **DVWA** | Barnaamij loogu talagalay tababarka amniga webka | [github.com/digininja/DVWA](https://github.com/digininja/DVWA) |
+| **OWASP Juice Shop** | Shaybaar casri ah oo leh caqabado badan | [owasp.org/www-project-juice-shop](https://owasp.org/www-project-juice-shop/) |
+| **NahamSec** | Casharro iyo waayo-aragnimo bug bounty | [youtube.com/@NahamSec](https://www.youtube.com/@NahamSec) |
+| **STÖK** | Fikir iyo tabo ku saabsan bug bounty | [youtube.com/@stokfredrik](https://www.youtube.com/@stokfredrik) |
 
-**Habka shaqada:**
-1. Fur Burp Suite → Proxy → Intercept (ku dar browser-ka)
-2. Fur DVWA ama Juice Shop (`docker run --rm -p 3000:3000 bkimminich/juice-shop`)
-3. PortSwigger lab-yada: bilow **SQL injection** pathway → kadib **XSS** → kadib **Access control**
+### Habka tababarka
+1. Ku rakib Burp Suite iyo browser tijaabo ah.
+2. Ku fur Juice Shop ama DVWA kombiyuutarkaaga; ha ku tijaabin website dadweyne adigoon fasax haysan.
+3. PortSwigger Academy ka bilow SQL injection, kadib XSS iyo access control.
+4. Qor waxa aad baratay, sababta nuglaanshuhu u dhacay, iyo sida loo saxo.
 
-## ✅ Liiska Hubinta
+## ✅ Liiska hubinta
 
-- [ ] Waan isticmaalay Burp Suite (Intercept + Repeater)
-- [ ] Waan fahmay HTTP codsiyada iyo jawaabaha buuxa
-- [ ] Waan dhammaystiray PortSwigger SQL injection labs (Apprentice, dhammaan)
-- [ ] Waan dhammaystiray PortSwigger XSS labs
-- [ ] Waan dhammaystiray Access control labs (IDOR!)
-- [ ] Waan helay dhaawac hal ah lab-ka Juice Shop ama DVWA
+- [ ] Waxaan adeegsan karaa Burp Proxy iyo Repeater.
+- [ ] Waxaan sharxi karaa HTTP request iyo response.
+- [ ] Waxaan dhammaystiray dhammaan Apprentice labs-ka SQL injection ee PortSwigger.
+- [ ] Waxaan dhammaystiray labs-ka aasaasiga ah ee XSS.
+- [ ] Waxaan tababar ku sameeyey labs-ka access control/IDOR.
+- [ ] Waxaan helay oo sharxay hal nuglaansho oo ku jirta shaybaar maxalli ah.
 
-## ⏱️ Waqti La Qiyaaso
-8-12 toddobaad (hal saac maalintii) — marxaladda ugu dheer, sababtoo ah waa wadnaha xirfadda
+## ⏱️ Waqtiga qiyaasta ah
 
-## 🏁 Imtixaanka (Milestone)
+8–12 toddobaad, iyadoo ku xiran waqtiga aad geliso iyo aqoontaadii hore.
 
-**Dhammaystir PortSwigger pathways:** SQL injection + XSS + Access control + Authentication (Apprentice level, dhammaan lab-yada). Ka dib dhig lab-yada DVWA hal hal. Haddii aad karto — **waad noqotay qof web security aqoon u leh!**
+## 🏁 Hawsha lagu hubinayo horumarka
 
-→ Xig: [06-amniga-shabakadda.md](06-amniga-shabakadda.md)
+Dhammaystir Apprentice labs-ka SQL injection, XSS, access control iyo authentication ee PortSwigger. Kadib ku celi fikradahaas DVWA ama Juice Shop oo qor sida loo hagaajin lahaa nuglaanshaha.
+
+→ Marka xigta: [Marxaladda 5: Amniga shabakadaha iyo adeegyada daruuraha](06-amniga-shabakadda.md)

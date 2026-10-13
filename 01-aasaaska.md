@@ -1,53 +1,55 @@
-# Marxalad 0 · Aasaaska — Kombuyuutarrada iyo Internet-ka
+# Marxalad 0 · Aasaaska kombiyuutarka iyo internetka
 
-> Marxaladda hore. Halkan waxaad baranaysaa aasaaska kombuyuutarrada iyo sida internet-ku u shaqeeyso, ka hor intaadan taaban amniga. Ha degdegin — aasaas adag ayaa waddada dheerta kuu fududaynaysa.
+> Marxaladdan waxaad ku baranaysaa sida kombiyuutarka iyo internetku u shaqeeyaan, iyo fikradaha aasaasiga ah ee amniga. Aasaas wanaagsan ayaa marxaladaha dambe kuu fududaynaya.
 
 ---
 
 ## 🎯 Hadaf
-Faham sida kombuyuutarrada iyo internet-ka ay u shaqeeyaan, iyo fikirka aasaasiga ah ee amniga (security).
 
-## 📚 Waxa La Barta
+Inaad fahanto qaybaha aasaasiga ah ee kombiyuutarka iyo internetka, iyo sababta xogta iyo nidaamyada loo ilaaliyo.
 
-| Mawduuc | Waxa aad baranaysaa |
+## 📚 Mawduucyada la baranayo
+
+| Mawduuc | Waxa aad baranayso |
 |---|---|
-| Kombuyuutarrada | Hardware, OS (Windows/Linux/Mac), faylasha, folders-ka, processes |
-| Internet-ka | Browser-ka, URLs, websites, DNS hore |
-| Xogta (data) | Passwords, cookies, xogta qaabkeeda (plain text vs encrypted) |
-| Amniga aasaasiga | CIA triad: Confidentiality · Integrity · Availability |
-| Noocyada weerarayaasha | Hacker-ka bilaash ah (white hat), dembiligaha (black hat), script kiddie |
-| Hawlaha amniga | Pentester, SOC analyst, security engineer, bug bounty hunter |
+| Kombiyuutarka | Qalabka (hardware), nidaamka hawlgalka (Windows/Linux/macOS), faylasha iyo barnaamijyada |
+| Internetka | Browser-ka, cinwaannada webka (URL), bogagga iyo adeegyada internetka |
+| Xogta | Farqiga u dhexeeya qoraal caadi ah iyo xog la sirgaliyey (encrypted) |
+| Amniga xogta | Saddexda mabda' ee CIA: Confidentiality, Integrity, Availability |
+| Doorka amniga | Tijaabiye oggolaansho haysta (white hat), weeraryahan sharci-darro ah (black hat), iyo script kiddie |
+| Shaqooyinka amniga | Security analyst, pentester, security engineer iyo bug bounty hunter |
 
-**Waa maxay CIA triad?** (Xeerka dahabka ah ee amniga):
-- **Confidentiality** (Qarsoodiga) — xogta oo qofka saxda ah oo keliya ay arkaan
-- **Integrity** (Saxnaanta) — xogta oo aan la beddelin si sharci darro ah
-- **Availability** (Helitaanka) — nidaamka oo shaqeeya marka loo baahdo
+**CIA triad** waa saddex mabda' oo aasaasi u ah amniga xogta:
+- **Confidentiality (qarsoodi):** dadka loo oggolaaday oo keliya ayaa heli kara xogta.
+- **Integrity (saxnaan):** xogta lama beddeli karo oggolaansho la'aan.
+- **Availability (helitaan):** nidaamka iyo xogtu waa la heli karaa marka loo baahdo.
 
-## 🔗 Agab (Bilaash)
+## 🔗 Agab bilaash ah
 
-| Agab | Waxa ay tahay | Link |
+| Agab | Waxa uu bixinayo | Xiriiriye |
 |---|---|---|
-| **TryHackMe — Pre-Security** | Dariiqa buuxa ee beginner-yada (English) | [tryhackme.com/path/outline/presecurity](https://tryhackme.com/path/outline/presecurity) |
-| **freeCodeCamp — Cybersecurity basics** | Fidiyo YouTube dheer, bilaash | [youtube.com/watch?v=uaec87gZLkE](https://www.youtube.com/watch?v=uaec87gZLkE) |
-| **PowerCert Animated Videos** | Fidiyada animation ah oo fudud | [youtube.com/@PowerCertAnimatedVideos](https://www.youtube.com/@PowerCertAnimatedVideos) |
-| **Crash Course Computer Science** | Taariikhda iyo sida ay u shaqeeyaan | [youtube.com/playlist?list=PL8dPuuaLjXtNlUrzyH5r6jN9mIR8S2Fb](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNlUrzyH5r6jN9MU_9w0szW) |
-| **Google Cybersecurity Certificate** | Kursus Coursera (bilaash daawasho) | [coursera.org/professional-certificates/google-cybersecurity](https://www.coursera.org/professional-certificates/google-cybersecurity) |
+| **TryHackMe — Pre Security** | Waddo hordhac u ah amniga iyo IT-ga | [tryhackme.com/path/outline/presecurity](https://tryhackme.com/path/outline/presecurity) |
+| **freeCodeCamp — Cybersecurity basics** | Cashar hordhac ah oo muuqaal ah | [YouTube](https://www.youtube.com/watch?v=uaec87gZLkE) |
+| **PowerCert Animated Videos** | Muuqaallo sharxaya fikradaha kombiyuutarka iyo shabakadaha | [youtube.com/@PowerCertAnimatedVideos](https://www.youtube.com/@PowerCertAnimatedVideos) |
+| **Crash Course Computer Science** | Taxane hordhac ah oo sayniska kombiyuutarka ah | [YouTube playlist](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNlUrzyH5r6jN9MU_9w0szW) |
+| **Google Cybersecurity Certificate** | Koorso xirfadeed oo Coursera ah; qiimaha iyo helitaanku way kala duwanaan karaan | [coursera.org/professional-certificates/google-cybersecurity](https://www.coursera.org/professional-certificates/google-cybersecurity) |
 
-> **Fiiro:** Af-Ingiriiska ayaa muhiim xirfaddan (agabta ugu badan). Haddii Ingiriisi aad liidata, bilow fiidiyada Ingiriisi ah ee subtitle leh — waqti sameeysa. `Duolingo` english ku dar barashadaada.
+> **Luqadda Ingiriisiga:** agabka farsamo badankiisu Ingiriisi ayuu ku qoran yahay. Si tartiib ah u dhis erayada farsamada; muuqaalada leh qoraal-hoosaadyo (subtitles) ayaa kaa caawin kara.
 
-## ✅ Liiska Hubinta
+## ✅ Liiska hubinta
 
-- [ ] Waan fahmay sida kombuyuutarku u shaqeeyo (hardware → OS → barnaamijyada)
-- [ ] Waan fahmay URL iyo waxa ay ka kooban tahay (`https://example.com/path`)
-- [ ] Waan fahmay CIA triad oo waan sharxi karaa tusaale dhab ah
-- [ ] Waan garanayaa farqiga white hat iyo black hat
-- [ ] Waan abuuray akoon TryHackMe oo waxaan dhammaystiray room-yada hore
+- [ ] Waxaan sharxi karaa sida kombiyuutarku u adeegsado qalabka, nidaamka hawlgalka iyo barnaamijyada.
+- [ ] Waxaan garanayaa waxa URL yahay iyo qaybaha uu ka kooban yahay, tusaale `https://example.com/path`.
+- [ ] Waxaan sharxi karaa saddexda mabda' ee CIA anigoo tusaale bixinaya.
+- [ ] Waxaan kala saari karaa tijaabada amniga ee oggolaanshaha leh iyo weerarka sharci-darrada ah.
+- [ ] Waxaan sameystay akoon TryHackMe oo bilaabay qaybaha hordhaca ah.
 
-## ⏱️ Waqti La Qiyaaso
-1-2 toddobaad (hal saac maalintii)
+## ⏱️ Waqtiga qiyaasta ah
 
-## 🏁 Imtixaanka (Milestone)
+1–2 toddobaad, haddii aad wax barato qiyaastii hal saac maalintii.
 
-**Afkaga ama warbixin ku qor:** "Waxa dhaca markaan taabo `https://google.com` oo Enter riixo — laga bilaabo browser-ka illaa bogga la muujiyay." Haddii aad sheegi karto DNS, server, iyo jawaabta HTTP — **waad diyaar tahay marxaladda xigta.**
+## 🏁 Hawsha lagu hubinayo horumarka
 
-→ Xig: [02-shabakadda.md](02-shabakadda.md)
+Qor sharaxaad kooban oo ka jawaabaysa su'aashan: **Maxaa dhacaya marka aad browser-ka ku qorto `https://google.com` oo aad Enter riixdo?** Isku day inaad ka hadasho browser-ka, DNS-ka, server-ka iyo jawaabta HTTP.
+
+Markaad fikradahan si fudud u sharxi karto, u gudub [Marxaladda 1: Shabakadaha](02-shabakadda.md).
